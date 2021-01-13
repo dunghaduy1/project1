@@ -1,0 +1,141 @@
+body {
+    background-image: url('../../upload/background.jpg');
+    margin: 0 auto;
+
+}
+#header{
+
+	background-color: #c81f34;
+}
+.login {
+	float: right;
+}
+#content{
+        width: 80%;
+        margin: 0px auto;
+        background-color: white;
+
+}
+#footer{
+	padding: 20px;
+	background-color: #c81f34;
+    clear: left;
+}
+p.tt {
+    font-size: 24px;
+    font-family: 'Literata', serif;
+    text-align: center;
+}
+p.gia{
+    color: red;
+}
+
+h3 {
+    color: white;
+}
+
+ul{
+    
+    text-align: center;
+    background: #a51124;
+}
+li{
+    color: white;
+    font-family: 'Literata', serif;
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 30px;
+    padding: 10px;  
+}
+li:hover{
+    color: white;
+font-family: 'Literata', serif;
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 30px;
+    padding: 10px; 
+    background-color: #c23043;  
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+        .con{
+            height: 430px;
+            float: left;
+            margin: 6px;
+            padding: 20px;
+            background: none;
+            border: dashed 3px red;
+            border-radius: 5px;
+            background-color: white;
+        }
+        .con:hover{
+            height: 430px;
+            float: left;
+            margin: 6px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 5px;
+        }
+.catelog{
+    width: 20%;
+}
+.grid-container {
+  display: grid;
+ grid-template-columns: auto auto auto;
+  grid-gap: 50px;
+  background-color: white;
+}
+button{
+    margin: 0 auto;
+}
+.content{
+    background-color: white;
+    border: 5px solid white;
+}
+div.timkiem{
+    text-align: center;
+}
+input.box{
+    width: 350px;
+    height: 25px;
+    border-radius: ;
+}
+
+
+.btn{
+    color: White;
+    background-color:#c81f34;  
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    transition: .3s;
+  -webkit-transition: .3s;
+
+}
+.btn:hover{
+    color: #4CAF50;
+  background: #ffffff;
+  border: 1px solid #4CAF50;
+  border-radius: 5px;  
+    padding: 10px;
+}div.comment-con{
+    border: solid 1px black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    padding: 10px;
+}
+a.logo{
+     
+}
+.item{
+    width: 25%;
+    height: 500px;
+    float: left;
+}
+.item-bar{
+    padding: 10px;
+    margin-left: 10px: 
+}
